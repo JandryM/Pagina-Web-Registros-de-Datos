@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("fondo.jpg");
+}
+.contenedor{
+    width: 400px;
+    background-color: rgb(6, 6, 44);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-block-end: 100px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.boton{
+    width: 100%;
+    background-color: rgb(6, 6, 44);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+.warnings{
+    color: red;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.contenedor .control{
+    width: 100%;
+    background-color: blue;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
